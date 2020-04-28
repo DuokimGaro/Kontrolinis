@@ -1,0 +1,60 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+@font-face
+{
+    font-family: "MuseoSans-700";
+    src:url(fonts/Museo700-Regular.otf);
+}
+
+@font-face
+{
+    font-family: "MuseoSans-900";
+    src:url(fonts/museo-sans-900.woff);
+}
+
+header
+{
+    background-color:#B1CD8F ;
+    color: #C21522;
+    font-size: 50px;
+}
+nav{
+	background-color:#1465EC;
+	justify-content:space-around;
+	align-items:center;
+	min-height:3vh;
+}
+.nav-links{
+	display:flex;
+    justify-content:space-around;
+    margin-right: 30px;
+}
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+	text-decoration:none;
+	font-size:50px;
+	color:#8BCDE8;
+}
+main{
+    background: #ED4322;
+    color: #45B4AE;
+  }
+  
+footer{ 
+    background-color: #395FDB;
+    text-align: right;
+    color: #68ECD7;
+    font-size: 50px;
+}
+button {
+    background-color: #395FDB;
+    text-align: right;
+    color: #68ECD7;
+    font-size: 50px;
+}
